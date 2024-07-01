@@ -7,6 +7,93 @@
     <title>Peter Abah | Personal Website</title>
   </head>
   <body>
+    <header class="header">
+      <img class="header__logo" src="" alt="Site logo" />
+
+      <nav class="main-nav">
+        <ul class="main-nav__links">
+          <li class="main-nav__link-wrapper">
+            <a class="main-nav__link-wrapper" href="#">About</a>
+          </li>
+          <li class="main-nav__link-wrapper">
+            <a class="main-nav__link-wrapper" href="#">About</a>
+          </li>
+          <li class="main-nav__link-wrapper">
+            <a class="main-nav__link-wrapper" href="#">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1 class="hero__heading">Hello my name is Peter.</h1>
+      <div>
+        <p class="hero__text">
+          I am a Software Developer based in Lagos, Nigeria. I'm passionate about creating
+          beautiful, intuitive and functional applications.
+        </p>
+        <a
+          class="hero__resume-link"
+          href="https://docs.google.com/document/d/e/2PACX-1vQt5unYf6BIs_LmAS9rplGf_5AG49SRscgTOGdIe7z2TiTk0IVoU4b7zLC7OKBVrIGlgPSATCPBIkEP/pub"
+          >View my resume</a
+        >
+      </div>
+      <img
+        class="hero__img"
+        src="/images/peter-profile.jpeg"
+        alt="Peter Abah"
+        data-testid="slackProfilePicture"
+      />
+    </section>
+
+    <section class="goals">
+      <h2 class="goals__heading">Goals</h2>
+      <p class="goals__text">
+        In the next two years, I'm setting myself up to be a well-rounded frontend and mobile
+        developer. For frontend, I want to master a popular framework like React and get a strong
+        grip on UI/UX design principles. This will help me create user-friendly and visually
+        appealing web experiences. I also want to learn advanced CSS to make things more
+        interactive.
+      </p>
+
+      <p class="goals__text">
+        On the mobile side, I plan to learn a framework that works on both iPhones and Androids,
+        like React Native. I'd also like to understand the basics of native development with
+        languages like Swift or Kotlin.
+      </p>
+
+      <p class="goals__text">
+        To get there, I'll be taking online courses, building my own projects, and testing myself
+        with coding challenges. I'm also looking for ways to contribute to open-source projects and
+        attend meetups to connect with other developers and learn the latest tech trends. This plan
+        will make me a strong developer in both areas, which is my career goal within the next two
+        years. I want to land a mid-level frontend and mobile developer role. To get there, I'll be
+        looking for opportunities in my current company to take on more challenging frontend and
+        mobile development tasks. Contributing to open-source projects will also give me experience
+        working on real-world applications.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <h2 class="footer__header">Connect</h2>
+      <p data-testid="currentTimeUTC"></p>
+      <p data-testid="currentDay"></p>
+      <ul class="footer__links">
+        <li class="footer__link-wrapper">
+          <p class="footer__link">Slack" @<span data-testid="slackDisplayName">oddabok</span></p>
+        </li>
+        <li class="footer__link-wrapper">
+          <a class="footer__link" href="https://github.com/peter-abah">Github</a>
+        </li>
+        <li class="footer__link-wrapper">
+          <a
+            class="footer__link"
+            href="mailto:peterabah.contact@gmail.com?subject=Email from your website"
+            ><span data-testid="slackEmail">peterabah.ob@gmail.com</span></a
+          >
+        </li>
+      </ul>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
